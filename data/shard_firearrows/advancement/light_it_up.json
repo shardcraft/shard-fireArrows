@@ -1,0 +1,19 @@
+{
+  "parent": "shard_core:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": "Light it Up!",
+    "frame": "task",
+    "description": "Start a fire from afar",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
